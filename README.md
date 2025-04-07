@@ -24,8 +24,6 @@ AviAtor Ported to NETCore 5 with an updated UI
 
 1. Portable executable injection which involves writing malicious code directly into the process (without a file on disk) then invoking execution with either additional code or by creating a remote thread. The displacement of the injected code introduces the additional requirement for functionality to remap memory references. Variations of this method such as reflective DLL injection (writing a self-mapping DLL into a process) and memory module (map DLL when writing into process) overcome the address relocation issue. 
 
-2. Thread execution hijacking which involves injecting malicious code or the path to a DLL into a thread of a process. Similar to Process Hollowing, the thread must first be suspended.
-
 ### Usage
 
 The application has a form which consists of three main inputs (See screenshot bellow):
